@@ -33,33 +33,33 @@ button {
   justify-content: center;
 }
 .rectangle {
-  margin: 8px;
-  padding: 10px;
-  width: 80px;
   background-color: transparent;
-  color: #FFF;
-  text-shadow: 0 0 8px #FFF;
   border: none;
   border-radius: 4px;
   box-shadow: 0 0 5px #FFF, 0 0 5px #FFF inset;
+  color: #E56399;
   cursor: pointer;
+  margin: 20px;
   outline: 0 !important;
+  padding: 10px;
+  text-shadow: 0 0 10px #FFF;
   transition: all .3s ease-in;
+  width: 80px;
 }
 .circle {
-  margin: 25px 10px;
-  padding: 25px 0;
-  width: 80px;
   background-color: transparent;
-  font-size: 20px;
-  color: #FFF;
-  text-shadow: 0 0 7px #FFF;
   border: none;
   border-radius: 50%;
   box-shadow: 0 0 10px #FFF, 0 0 10px #FFF inset;
+  color: #E56399;
   cursor: pointer;
+  font-size: 20px;
+  margin: 25px 10px;
   outline: 0 !important;
+  padding: 25px 0px;
+  text-shadow: 0 0 10px #FFF;
   transition: all .3s ease-in;
+  width: 80px;
 }
 .active {
   box-shadow: 0 0 30px #E56399, 0 0 2px #E56399 inset;
