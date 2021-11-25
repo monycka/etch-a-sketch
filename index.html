@@ -1,49 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="src/style.css">
-  <title>etch-a-sketch</title>
-</head>
-<body>
-  <header>
-    <h1 class="title">
-    Etch-A-Sketch Game
-  </h1>
-  </header>
-  
-  <main class="main-content">
-    <div class="options">
-      <div class="color-buttons"> 
-        <button type="button" class="cold square">Cold</button>
-        <button type="button" class="pastel square">Pastel</button>
-        <button type="button" class="warm square">Warm</button>
-      </div>
-      <div class="grid-buttons">
-        <button type="button" class="grid-10 grid-btn">10✕10</button>
-        <button type="button" class="grid-20 grid-btn active-btn">20✕20</button>
-        <button type="button" class="grid-30 grid-btn">30✕30</button>
-        <button type="button" class="grid-10 circle">10✕10</button>
-        <button type="button" class="grid-20 circle active">20✕20</button>
-        <button type="button" class="grid-30 circle">30✕30</button>
-      </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>etch-a-sketch</title>
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="title">Etch-A-Sketch Game</h1>
+    </header>
 
-      <div class="color-button">
-        <button type="button" class="black rectangle">Black</button>
-        <button type="button" class="white rectangle">White</button>
+    <main class="main-content">
+      <div class="options">
+        <div class="color-button">
+          <button type="button" class="warm rectangle">Warm</button>
+          <button type="button" class="cold rectangle">Cold</button>
+        </div>
+        <div class="grid-buttons">
+          <button type="button" class="grid-10 circle">10✕10</button>
+          <button type="button" class="grid-20 circle active">20✕20</button>
+          <button type="button" class="grid-30 circle">30✕30</button>
+        </div>
+        <div class="color-button">
+          <button type="button" class="black rectangle">Black</button>
+          <button type="button" class="white rectangle">White</button>
+        </div>
       </div>
-    </div>
-    <div class="toy-container">
-      <div class="grid-container">
+      <div class="toy-container">
+        <div class="grid-container"></div>
       </div>
-    </div>
-  </main>
+    </main>
 
-  <p class="creator">Created by Monica</p>
-  
-  <script src="src/app.js"></script>
-</body>
+    <p class="creator">Created by Monica</p>
 
+    <script type="text/javascript" src="src/apps.js"></script>
+  </body>
 </html>
