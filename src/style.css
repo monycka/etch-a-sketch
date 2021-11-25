@@ -38,9 +38,9 @@ button {
   width: 80px;
   background-color: transparent;
   color: #FFF;
-  text-shadow: 0 0 7px #FFF;
+  text-shadow: 0 0 8px #FFF;
   border: none;
-  border-radius: 3px;
+  border-radius: 4px;
   box-shadow: 0 0 5px #FFF, 0 0 5px #FFF inset;
   cursor: pointer;
   outline: 0 !important;
@@ -100,7 +100,8 @@ button {
   width: 15px;
 }
 
-.copyright{
-  font-size: 17px;
+.creator{
+  font-size: 1em;
   text-shadow: 0 0 7px #FFF;
 }
+

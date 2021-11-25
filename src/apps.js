@@ -39,7 +39,7 @@ function chooseGrid() {
 function generateColor(name, colors) {
   const gridItem = document.querySelectorAll('.grid-container > div');
   gridItem.forEach((item) => {
-    if (name === 'warm' || name === 'cold') {
+    if (name === 'bright' || name === 'pastel') {
       const randomColors = colors[Math.floor(
         Math.random() * colors.length,
       )];
@@ -59,12 +59,12 @@ function chooseColor() {
   colorButtons.forEach((button) => {
     button.addEventListener('click', () => {
       removeActiveStyle(colorButtons);
-      if (button.classList.contains('warm')) {
+      if (button.classList.contains('bright')) {
         colorButtons[0].classList.add('active');
-        generateColor('warm', ['#BF6A6D', '#A45256', '#EC6760', '#F88C5D', '#FDCF6D']);
-      } else if (button.classList.contains('cold')) {
+        generateColor('bright', ['#00A5E3', '#FF6F68', '#FF96C5', '#FF60A8', '#CFF800']);
+      } else if (button.classList.contains('pastel')) {
         colorButtons[1].classList.add('active');
-        generateColor('cold', ['#5590BC', '#0DABB8', '#01F0F6', '#1FFDE1', '#57FFC8']);
+        generateColor('pastel', ['#ABDEE6', '#CBAACB', '#FFFFB5', '#FFCCB6', '#F3B0C3']);
       } else if (button.classList.contains('black')) {
         colorButtons[2].classList.add('active');
         generateColor('black', '#000000');
