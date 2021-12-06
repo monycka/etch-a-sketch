@@ -3,8 +3,9 @@
 html {
   height: 100%;
 }
+
 body {
-  background: linear-gradient(-225deg, #B7F8DB 0%, #50A7C2 100%);
+  background: #add8e6;
   color: #E56399;
   font-family: 'Satisfy', cursive;
   text-align: center;
@@ -23,7 +24,7 @@ button {
   text-shadow: 0 0 12px #FFF;
 }
 
-.options {
+.colors {
   display: flex;
   justify-content: center;
 }
@@ -61,11 +62,12 @@ button {
   transition: all .3s ease-in;
   width: 80px;
 }
+
 .active {
   box-shadow: 0 0 30px #E56399, 0 0 2px #E56399 inset;
 }
 
-.toy-container {
+.grids {
   margin-top: 20px;
 }
 .grid-container {
@@ -82,15 +84,15 @@ button {
   grid-template-columns: repeat(10, auto);
 }
 .grid-10x10 > div {
-  height: 47px;
-  width: 47px;
+  height: 50px;
+  width: 50px;
 }
 .grid-20x20 {
   grid-template-columns: repeat(20, auto);
 }
 .grid-20x20 > div {
-  height: 23px;
-  width: 23px;
+  height: 25px;
+  width: 25px;
 }
 .grid-30x30 {
   grid-template-columns: repeat(30, auto);
